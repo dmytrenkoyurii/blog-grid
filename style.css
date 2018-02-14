@@ -1,0 +1,95 @@
+body {
+	background-color: #e2e7ec;
+	margin-top: 40px;
+}
+
+.blog {
+  	margin: auto;
+	width: 1120px;
+	height: 1100px;
+	background-color: #e2e7ec;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+	align-content: space-between; 
+}
+
+.blog__1 {
+	width: 740px;
+	height: 540px;
+	background-color: white;
+}
+
+.blog__2 {
+	width: 360px;
+	height: 540px;
+	background-color: white;
+
+}
+
+.blog__1--date {
+	position: absolute;
+	top: 400px;
+	padding-left: 45px;
+	font-family: "HansKendrick-R";
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #9a968f;
+}
+
+.blog__1--h {
+	position: absolute;
+	top: 410px;
+	padding-left: 45px;
+	font-family: "HansKendrick-R";
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.blog__2--date {
+	padding-left: 30px;
+	font-family: "HansKendrick-R";
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #9a968f;
+	margin-top: 24px;
+}
+
+.blog__2--h {
+	padding-left: 30px;
+	font-family: "HansKendrick-R";
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	font-weight: bold;
+}
+.blog__2--face {
+	padding-left: 30px;
+	padding-right: 25px;
+	padding-top: 25px;
+	position: absolute;
+ }
+
+.text {
+	padding-left: 20px;
+	font-family: "HansKendrick-R";
+	text-transform: uppercase;
+	align-items: center;
+	font-weight: bold;
+	color: #9a968f;
+	text-align: center;
+	    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+/* Підключенн шрифтів */
+@font-face {
+	font-family: "HansKendrick-R"; 
+	src: url("HansKendrick-Regular.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
